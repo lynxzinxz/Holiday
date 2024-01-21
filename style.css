@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Holtwood+One+SC&family=Ultra&display=swap');
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #721A32;
+}
+
+header {
+  height: 20vh;
+  text-align: center;
+  background-color: wheat;
+}
+
+header h1 {
+  text-transform: uppercase;
+  transform: translateY(0.3in);
+  font-family:  'Holtwood One SC', serif;
+  color: #721A32;
+  text-shadow: 2px 3px rgb(255, 255, 255);
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.christmas-day {
+  width: 85%;
+  height: 230vh;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-top: 10%;
+  gap: 1in;
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.circular-img {
+  width: 200px; 
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 10px; 
+  border:#FCBC58 solid 2px;
+}
+
+.circular-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  text-align: center;
+  margin: 5% 0 0 15%;
+  background-color: #FCBC58;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.description p {
+  font-size: 20px;
+  font-family: bevan;
+  color: #721A32;
+}
+
+.added-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin: 5% 0 0 15%;
+}
+
+/* iframe {
+  border:#FCBC58 solid 2px;
+} */
+
+.added-container img {
+  border-radius: 25px;
+  border:#FCBC58 solid 2px;
+}
